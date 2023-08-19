@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Account Search</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file -->
+</head>
+
+<body>
+    <h1>GitHub</h1>
+    <form id="myform" autocomplete="off" class="searchbox">
+          <!-- Input for GitHub username -->
+        <div id="form-group" class="searchboxsize">
+            <input type="text" id="search" placeholder="Search your GitHub Username" required>
+            <div class="form-group">
+                <button>Search</button> <!-- Button to initiate the search -->
+            </div>
+        </div>
+    </form>
+    <div id="result"></div>
+     <!-- Logo images and GIF -->
+    <div class="image">
+        <img src="images/download.png" alt="" class="moveimage"> <!-- GitHub logo image -->
+    </div>
+    <img class="gif" src="images/search.gif" alt="GIF"> <!-- GIF for visual effect -->
+</body>
+<script src="app.js"></script> <!-- Link to an external JavaScript file -->
+
+</html>
