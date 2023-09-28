@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body{
+    background-color: whitesmoke;
+}
+.heading{
+    text-align: center; 
+    font-family:'Young Serif', serif;
+}
+.card-box{
+    display: flex;
+   text-align: center;
+   justify-content: space-evenly;   
+}
+.wrapper{
+    width: 80%;
+}
+.imgbox{
+    border-radius: 20px;
+    box-shadow:  5px 5px gray;
+width: fit-content;
+}
+.card{
+    width: 30%;
+    border: 2px solid gainsboro;;
+    padding: 1rem;
+    border-radius: 20%;
+    box-shadow:  10px 10px gainsboro;}
+    
+    .button-container{
+        text-align: center;
+        justify-content: space-evenly;
+        height: fit-content;
+        border-radius: 20px;
+    }
+    .button-rad{
+        border-radius: 10px;
+    }
+    .content{
+        font-family: 'Young Serif', serif;
+    }
+@media screen and (max-width: 600px) {
+    /* CSS styles for screens up to 480px width (e.g., smartphones) */
+    .card-box{
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+       justify-content: space-evenly;  
+       gap: 1rem; 
+    }
+    .wrapper,.card{
+        width: 80%;
+    }
+  }
